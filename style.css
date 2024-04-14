@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin:10px;
+}
+
+body {
+    display:grid;
+    grid-template-columns: 40% 60%;
+    font-family: "Poppins", sans-serif;
+}
+
+.name {
+    position: absolute;
+    height: 50vh;
+    width:79%;
+    top:70px;
+    left:17vw;
+    background-color: #faf7f2;
+    overflow: auto;
+}
+
+img {
+    border-radius: 50%;
+    height: 52vh;
+    width: 20vw;
+    position: absolute;
+    top:58px;
+    left:70px;
+    z-index: 5;
+    border: 7px solid #ffffff;
+}
+
+.contact {
+    background-color: #e3dccc;
+    padding-left: 20px;
+}
+
+.name h1,.name h2,.name h4 {
+    padding-left: 150px;
+}
+
+.name h1 {
+    padding-top: 27px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.name h4, .exp h4 {
+    padding-right: 20px;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.exp .head, .contact .first {
+    padding-top: 340px;
+}
+
+.name h2 {
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 0px;
+}
+
+.iphone-icon, .fa-envelope, .fa-arrow-pointer, .fa-location-dot, .fa-map-pin, .fa-regular, .fa-solid, .fa-thin, .fa-github {
+    color: #745237;
+    font-size: 25px; 
+  }
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+span {
+    font-weight: 200;
+    font-size: 15px;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+}
+
+.contact {
+    height: 100%;
+    grid-row-end:2;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 23px;
+    position: relative;
+    top:1px;
+}
+
+.skill, .mar {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.cir {
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    
+} 
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.bar {
+    background-color: #e3dccc;
+    height:3vh;
+    border-radius: 20em;
+    margin: 0px;
+    margin-left: 5px;
+    width:13vw;
+}
+
+.a1, .a2, .a3 {
+    margin: 0px;
+    background-color: #745237;
+    height: 3vh;
+    border-radius: 20em;
+}
+
+.a1 {
+    width:80%;
+}
+
+.a2 {
+    width:70%;
+}
+
+.a3 {
+    width: 40%;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.sath {
+    margin: 0px;
+}
+
+.ach {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
